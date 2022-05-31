@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "title": "맥주",
+            "description": "여름에 시원한 맥주 최고",
+            "imageURL": ""
+        },
+        {
+            "title": "샴페인",
+            "description": "사실 제일 좋아하는 샴페인",
+            "imageURL": ""
+        },
+        {
+            "title": "레드와인",
+            "description": "스테이크엔 역시 레드와인",
+            "imageURL": ""
+        },
+        {
+            "title": "화이트와인",
+            "description": "홍합찜에 화이트와인 최고",
+            "imageURL": ""
+        },
+        {
+            "title": "데킬라",
+            "description": "미드에서만 봤던 데킬라",
+            "imageURL": ""
+        },
+        {
+            "title": "위스키",
+            "description": "익숙하지만 안 마셔본 위스키",
+            "imageURL": ""
+        },
+    ]
+}

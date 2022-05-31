@@ -1,0 +1,9 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid #f6aa1c;
+  padding: 0.5em;
+  gap: 0.5em;
+  overflow-y: scroll;
+  width: 100%;
+}

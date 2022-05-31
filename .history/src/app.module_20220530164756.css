@@ -15,6 +15,9 @@ body {
   padding: 1rem;
 }
 
-#root {
-  height: 100%;
+main {
+  display: flex;
+  margin: 0.5rem 0;
+  gap: 0.5rem;
+  height: calc(100% - 100px);
 }
