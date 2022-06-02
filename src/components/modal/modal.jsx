@@ -37,6 +37,7 @@ const Modal = ({ displayModal, handleDisplayModal, handleAddItem }) => {
                 </span>
                 <label htmlFor="name">이름</label>
                 <input 
+                    id="name"
                     type="text" 
                     placeholder="꼬냑" 
                     maxLength="5" 
@@ -44,12 +45,14 @@ const Modal = ({ displayModal, handleDisplayModal, handleAddItem }) => {
                     ref={titleRef} />
                 <label htmlFor="image">이미지</label>
                 <input 
+                    id="image"
                     type="text" 
                     placeholder="URL" 
                     required
                     ref={imageURLRef} />
                 <label htmlFor="description">내용</label>
                 <input 
+                    id="description"
                     type="text" 
                     placeholder="프랑스 꼬냑 지방에서 생산한대요" 
                     required
