@@ -7,7 +7,7 @@ const Modal = ({ displayModal, handleDisplayModal, handleAddItem }) => {
     const descriptionRef = useRef();
     const imageURLRef = useRef();
 
-    const onAddItem = (event) => {
+    const handleSubmit = (event) => {
         event.preventDefault();
         const item = {
             id: Date.now(),
@@ -27,7 +27,7 @@ const Modal = ({ displayModal, handleDisplayModal, handleAddItem }) => {
             }}>
             <form 
                 className={styles.modal_content}
-                onSubmit={onAddItem}
+                onSubmit={handleSubmit}
                 ref={formRef}>
                 <span 
                     className={styles.close}
